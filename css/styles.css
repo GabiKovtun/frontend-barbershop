@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans';
+    sans-serif;
+    background-color: gray;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* --------------header-------------------------- */
+.header-link,
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.header-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* --------HERO------------ */
+/* ---------------------social------------- */
+.social-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    /* identical to box height */
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+/* --------hero------------ */
+.hero-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.herro-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero-after-title {
+    font-size: 18px;
+    line-height: 1.67;
+    /* or 167% */
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}

@@ -5,37 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>&#128136;BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">
+    <header class="header">
+      <a href="./index.html" class="header-logo">
         <img src="./images/logo.svg" alt="site logo" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#service">Services and prices</a></li>
-          <li><a href="#barbers">Barbers</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+      <nav class="navigate">
+        <ul class="navigate-list list">
+          <li class="header-item"><a href="#service" class="header-link link">Services and prices</a></li>
+          <li class="header-item"><a href="#about" class="header-link link">About</a></li>
+          <li class="header-item"><a href="#barbers" class="header-link link">Barbers</a></li>
+          <li class="header-item"><a href="#contacts" class="header-link link">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+      <button type="button" class="header-button">Online-booking</button>
     </header>
     <main>
       <!--hero-->
-      <section>
-        <ul>
+      <section class="hero">
+        <ul class="social-list list">
           <li>
-            <a href="" target="blank" rel="noreferrer noopener">Instagaram</a>
+            <a href="" target="blank" rel="noreferrer noopener" class="social-link link"
+        >Instagaram</a>
           </li>
           <li>
-            <a href="" target="blank" rel="noreferrer noopener">Youtube</a>
+            <a href="" target="blank" rel="noreferrer noopener" class="social-link link">Youtube</a>
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-pre-title">A hair salon for men in Kyiv</p>
+        <h1 class="herro-title">BarberShop</h1>
+        <p class="hero-after-title">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
