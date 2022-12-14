@@ -22,9 +22,11 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container ">
+      <div class="container header-container">
         <a href="./index.html" class="header-logo">
-          <img src="./images/logo.svg" alt="site logo" />
+          <svg class="logo-icon" width="69" height="56">
+            <use href="./images/icons.svg#icon-Logo"></use>
+          </svg>
         </a>
         <nav class="navigate">
           <ul class="navigate-list list">
@@ -56,32 +58,34 @@
       <!--hero-->
       <section class="hero">
         <div class="container hero-container">
-          <ul class="social-list list">
-            <li>
-              <a
-                href=""
-                target="blank"
-                rel="noreferrer noopener"
-                class="social-link link"
-                >Instagaram</a
-              >
-            </li>
-            <li>
-              <a
-                href=""
-                target="blank"
-                rel="noreferrer noopener"
-                class="social-link link"
-                >Youtube</a
-              >
-            </li>
-          </ul>
+          <div class="hero-soc">
+            <ul class="social-list list">
+              <li>
+                <a
+                  href=""
+                  target="blank"
+                  rel="noreferrer noopener"
+                  class="social-link link"
+                  >Instagaram</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="blank"
+                  rel="noreferrer noopener"
+                  class="social-link link"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
           <div class="herro-info">
             <p class="hero-pre-title pre-title">A hair salon for men in Kyiv</p>
             <h1 class="herro-title">BarberShop</h1>
             <p class="hero-after-title">
-              We are experts in trendy men’s haircuts. We work quickly, carefully
-              and with style.
+              We are experts in trendy men’s haircuts. We work quickly,
+              carefully and with style.
             </p>
           </div>
         </div>
@@ -111,10 +115,10 @@
             </p>
             <p class="about-text">
               We are a team that never stops at what has been achieved and are
-              thirsty for changes. And when you fall into the hands of our master,
-              you will never be the same again. We are a team that is always "on
-              the same wave" with clients. Therefore, we are always ready to
-              improve everyone who comes to us!
+              thirsty for changes. And when you fall into the hands of our
+              master, you will never be the same again. We are a team that is
+              always "on the same wave" with clients. Therefore, we are always
+              ready to improve everyone who comes to us!
             </p>
             <button type="button" class="button-light">Online-booking</button>
           </div>
@@ -165,7 +169,9 @@
               </li>
             </ul>
           </div>
-          <button type="button" class="button-dark service-button">online-booking</button>
+          <button type="button" class="button-dark service-button">
+            online-booking
+          </button>
         </div>
       </section>
       <!--why or benefits -->
@@ -192,11 +198,11 @@
           <div class="benefit-info">
             <h3 class="benefit-pre-title pre-title">Old traditional school</h3>
             <h2 class="benefit-title section-title">
-              <span class="benefit-title-symbol">?</span>Why people come to us?
+              <span class="benefit-title-symbol">¿</span>Why people come to us?
             </h2>
             <p class="benefit-text">
-              Only good things are said about us. But it's better to see and feel 1
-              time than read 10 times.
+              Only good things are said about us. But it's better to see and
+              feel 1 time than read 10 times.
             </p>
           </div>
         </div>
@@ -209,23 +215,110 @@
           </h3>
           <h2 class="barbers-title section-title">Our barbers</h2>
           <ul class="barbers-list list">
-            <li>
+            <li class="barbers-item">
               <img src="./images/barber1.jpg" alt="John Smith" width="370" />
               <h4 class="barbers-item-title">John Smith</h4>
               <h5 class="barbers-item-text">Extreme Barber</h5>
-              <ul></ul>
+              <ul class="barbers-soc-list list">
+                <li class="barbers-soc-item">
+                  <a href="" class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
-            <li>
+            <li  class="barbers-item">
               <img src="./images/barber2.jpg" alt="Michele Doe" width="370" />
               <h4 class="barbers-item-title">Michele Doe</h4>
               <h5 class="barbers-item-text">Extreme Barber</h5>
-              <ul></ul>
+              <ul class="barbers-soc-list list">
+                <li class="barbers-soc-item">
+                  <a href="" class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
-            <li>
+            <li  class="barbers-item">
               <img src="./images/barber3.jpg" alt="Alan Black" width="370" />
               <h4 class="barbers-item-title">Alan Black</h4>
               <h5 class="barbers-item-text">Extreme Barber</h5>
-              <ul></ul>
+              <ul class="barbers-soc-list list">
+                <li class="barbers-soc-item">
+                  <a href="" class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="barbers-soc-item">
+                  <a href=""class="barber-soc-link link">
+                    <svg class="barber-soc-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -233,7 +326,9 @@
       <!--portfolio-->
       <section class="portfolio section">
         <div class="container">
-          <h2 class="portfolio-title section-title visually-hidden">portfolio</h2>
+          <h2 class="portfolio-title section-title visually-hidden">
+            portfolio
+          </h2>
           <h3 class="portfolio-pre-title pre-title">
             In Latin, "barba" means "beard"
           </h3>
@@ -297,7 +392,7 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <p class="footer-text">&#169;Copyright 2020</p>
         <ul class="footer-list list">
           <li>
