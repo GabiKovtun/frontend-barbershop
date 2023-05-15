@@ -94,7 +94,6 @@ body {
 
 /* --------------header-------------------------- */
 .header-container {
-    outline: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -204,7 +203,6 @@ body {
 /* --------HERO------------ */
 /* ---------------------social------------- */
 .hero-container {
-    outline: 1px solid blueviolet;
     display: flex;
 }
 
@@ -229,12 +227,20 @@ body {
     transform-origin: bottom left;
 }
 
-.herro-info {
+.hero-info {
     background-image: url(../images/Slider\ img\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 272px 526px 208px 100px;
 }
+.hero-title{font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;}
 
 .social-link {
     font-weight: 600;
