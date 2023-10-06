@@ -1,0 +1,53 @@
+.button-dark {
+  display: block;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $light-title-color;
+  background-color: transparent;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+  min-width: 160px;
+  height: 40px;
+  transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  &:hover,
+  &:focus {
+    color: $light-title-color;
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 25px;
+  }
+}
+
+.button-light {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $dark-title-color;
+  background-color: transparent;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+  min-width: 160px;
+  height: 40px;
+  transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  &:hover,
+  &:focus {
+    color: $light-title-color;
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 25px;
+  }
+}

@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-text-color: #555555;
     --secondary-text-color: #9DA4BD;
     --light-title-color: #FFFFFF;
@@ -93,7 +93,7 @@ body {
 }
 
 /* --------------header-------------------------- */
-.header-container {
+/* .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,13 +196,13 @@ body {
 .header-logo:hover {
     fill: var(--accent-color);
 }
-
+ */
 
 
 
 /* --------HERO------------ */
 /* ---------------------social------------- */
-.hero-container {
+/* .hero-container {
     display: flex;
 }
 
@@ -264,10 +264,10 @@ body {
 .social-link:hover {
     color: var(--accent-color);
 }
-
+ */
 
 /* --------hero------------ */
-.hero-pre-title {
+/* .hero-pre-title {
     color: var(--dark-pre-title-color);
 }
 
@@ -287,12 +287,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-
+ */
 
 
 /* ----------abaut------------ */
 
-.abaut-wrap {
+/* .abaut-wrap {
     display: flex;
     gap: 30px;
     padding-top: 120px;
@@ -328,10 +328,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     margin-bottom: 42px;
-}
+} */
 
 /* -------------servis and price------------------- */
-.service {
+/* .service {
     background-color: #111319;
     background-image: url(../images/pricebg.png);
     background-position: center;
@@ -408,10 +408,10 @@ body {
 .service-button {
     display: block;
     margin: 0 auto;
-}
+} */
 
 /* --------------benefits----------- */
-.benefit-container {
+/* .benefit-container {
     display: flex;
     gap: 30px;
 }
@@ -474,10 +474,10 @@ body {
     color: var(--primary-text-color);
 }
 
-.benefit-title-symbol {}
+.benefit-title-symbol {} */
 
 /* ----------our teams--------barbers --------------*/
-.barbers {
+/* .barbers {
     background-color: var(--light-backround-color);
 }
 
@@ -547,13 +547,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
+} */
 
 
 
 /*   ----------portfolio ------------------- */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -574,11 +574,11 @@ body {
 .portfolio-list {
     display: flex;
     gap: 30px;
-}
+} */
 
 /* ----------------online--------------- */
 
-.section-wrap {
+/* .section-wrap {
     background-color: var(--dark-backround-color);
     background-image: url(../images/footerbg\ .png);
     background-repeat: no-repeat;
@@ -634,10 +634,10 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--light-title-color);
-}
+} */
 
 /* ---------------------contact----------------- */
-.contacts {
+/* .contacts {
     width: calc(50% - 15px);
     padding-left: 100px;
 }
@@ -685,10 +685,10 @@ body {
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-}
+} */
 
 /* ---------------footer-------------- */
-.footer {
+/* .footer {
     background-color: var(--light-backround-color);
 }
 
@@ -736,4 +736,4 @@ body {
     color: var(--accent-color);
 }
 
-.link {}
+.link {} */ 
