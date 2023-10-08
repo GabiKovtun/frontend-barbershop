@@ -1,79 +1,91 @@
-// .benefit-container {
-//   display: flex;
-//   gap: 30px;
-// }
+.benefit-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  @media (min-width: 768px) {
+    
+  }
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
 
-// .benefit-list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   padding-left: 100px;
-// }
-
-// .benefit-item:nth-child(odd) {
-//   margin-right: 30px;
-// }
-
-// .benefit-item:nth-child(even) {
-//   margin-top: 30px;
-// }
-
-// .benefit-item {
-//   padding: 20px 24px;
-//   background-color: #f7f7f7;
-//   width: 170px;
-//   height: 133px;
-// }
-
-// .benefit-item-text {
-//   font-weight: 600;
-//   font-size: 11px;
-//   line-height: 1.36;
-//   text-align: center;
-//   color: $dark-title-color;
-// }
-
-// .benefit-number {
-//   font-weight: 700;
-//   font-size: 42px;
-//   line-height: 1.35;
-//   text-align: center;
-//   letter-spacing: 0.05em;
-//   color: $dark-title-color;
-// }
-
-// .benefit-number::after{
-//   content: '+';
-//   display: inline-block;
-//   position: absolute;
+.benefit-list {
+  display: flex;
+  flex-wrap: wrap;
   
-//   color: $accent-color;
-//   text-align: center;
-//   font-size: 16px;
-//   font-style: normal;
-//   font-weight: 600;
-//   line-height: normal;
-// }
+  @media (min-width: 768px) {
+    padding-left: 279px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 100px;
+  }
+}
 
-// .benefit-info {
-//   padding-right: 70px;
-// }
+.benefit-item:nth-child(odd) {
+  margin-right: 30px;
+}
 
-// .benefit-pre-title {
-//   color: $dark-title-color;
-// }
+.benefit-item:nth-child(even) {
+  margin-top: 30px;
+}
 
-// .benefit-title {
-//   color: $dark-title-color;
-// }
+.benefit-item {
+  padding: 20px 24px;
+  background-color: #f7f7f7;
+  width: 170px;
+  height: 133px;
+}
 
-// .benefit-text {
-//   font-weight: 400;
-//   font-size: 18px;
-//   line-height: 1.67;
-//   letter-spacing: 0.02em;
-//   color: $primary-text-color;
-// }
+.benefit-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: $dark-title-color;
+}
 
+.benefit-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: $dark-title-color;
+}
 
-// .benefit-title-symbol {
-// }
+.benefit-number::after {
+  content: "+";
+  display: inline-block;
+  position: absolute;
+
+  color: $accent-color;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.benefit-info {
+  padding-right: 70px;
+}
+
+.benefit-pre-title {
+  color: $dark-title-color;
+}
+
+.benefit-title {
+  color: $dark-title-color;
+}
+
+.benefit-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+}
+
+.benefit-title-symbol {
+}

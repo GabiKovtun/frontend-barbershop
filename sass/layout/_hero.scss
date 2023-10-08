@@ -1,6 +1,7 @@
 .hero-container {
   display: flex;
   padding-right: 0;
+  justify-content: flex-end;
 }
 
 .hero {
@@ -61,15 +62,11 @@
   @media (min-width: 768px) {
     gap: 20px;
     background-image: url(../images/Slider\ img\ 1\ tab\ 1x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 307px 156px 317px 118px;
   }
   @media (min-width: 1200px) {
     gap: 20px;
     background-image: url(../images/Slider\ img\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 272px 526px 208px 100px;
   }
 }

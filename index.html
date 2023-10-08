@@ -52,7 +52,18 @@
           >
           <button type="button" class="button-dark">Online-booking</button>
         </div>
-        <div class="burger"> x </div>
+        <button class="burger">
+          <svg width="40" height="40">
+            <use
+              class="icon-close"
+              href="/images/symbol-defs.svg#icon-close_40px"
+            ></use>
+            <use
+              class="icon-menu"
+              href="/images/symbol-defs.svg#icon-menu_40px"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -96,13 +107,25 @@
         <div class="container about-wrap">
           <ul class="about-list list">
             <li>
-              <img src="./images/abaut1.jpg" alt=" hair salon work" />
+              <picture>
+                <source
+                  srcset="/images/abaut1.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img src="/images/abaut img 1 tab.jpg" alt=" hair salon work" />
+              </picture>
             </li>
             <li>
-              <img
-                src="./images/abaut2.jpg"
-                alt="experts in trendy men’s haircuts"
-              />
+              <picture>
+                <source
+                  srcset="/images/abaut2.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="/images/abaut img 2 tab.jpg"
+                  alt="experts in trendy men’s haircuts"
+                />
+              </picture>
             </li>
           </ul>
           <div class="abaut-info">
@@ -121,7 +144,7 @@
               always "on the same wave" with clients. Therefore, we are always
               ready to improve everyone who comes to us!
             </p>
-            <button type="button" class="button-light">Online-booking</button>
+            <button type="button" class="button-light abaut-button">Online-booking</button>
           </div>
         </div>
       </section>
@@ -210,7 +233,7 @@
       </section>
       <!--our teams-->
       <section id="barbers" class="barbers section">
-        <div class="container">
+        <div class="container barbers-container">
           <h3 class="barbers-pre-title pre-title">
             For true enjoyers of the atmosphere
           </h3>

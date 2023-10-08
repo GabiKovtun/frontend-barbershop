@@ -1,37 +1,68 @@
-// .about-wrap {
-//     display: flex;
-//     gap: 30px;
-//     padding-top: 120px;
-//     padding-bottom: 120px;
-//     padding-right: 100px;
-// }
+.about-wrap {
+  display: flex;
+  padding: 84px 31px;
+  @media (min-width: 768px) {
+    gap: 30px;
+    padding: 100px 39px;
+  }
+}
 
-// .about-list {
-//     display: flex;
-//     gap: 30px;
-// }
+.about-list {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  @media (max-width: 767px) {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
 
-// .about-pre-title {
-//     color: $dark-title-color;
+.abaut-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-// }
+.about-pre-title {
+  color: $dark-title-color;
+}
 
-// .about-title {
-//     color: $dark-title-color;
-// }
+.about-title {
+  font-size: 28px;
+  color: $dark-title-color;
+  @media (min-width: 1200px) {
+    font-size: 42px;
+  }
+}
 
-// .about-post-title {
-//     font-size: 18px;
-//     line-height: 1.67;
-//     letter-spacing: 0.02em;
-//     color: $primary-text-color;
-//     margin-bottom: 20px;
-// }
+.about-post-title {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+  margin-bottom: 20px;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
 
-// .about-text {
-//     font-size: 14px;
-//     line-height: 1.86;
-//     letter-spacing: 0.02em;
-//     color:$primary-text-color;
-//     margin-bottom: 42px;
-// }
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+  margin-bottom: 40px;
+  @media (min-width: 1200px) {
+    margin-bottom: 42px;
+  }
+}
+
+.abaut-button{
+width: fit-content;
+}
